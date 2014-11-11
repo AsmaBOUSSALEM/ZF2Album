@@ -7,8 +7,12 @@
         "zf2"
     ],
     "homepage": "http://framework.zend.com/",
+    "autoload": {
+     "psr-0": { "Album": "module/Album/src/" }
+    },
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.3.*",
+        "doctrine/doctrine-orm-module": "0.*"
     }
 }
